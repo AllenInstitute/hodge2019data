@@ -8,9 +8,9 @@ This package is intended as a convenient way to load a subset of the snRNA-seq d
 It contains data for 50 nuclei per cluster using an updated transcriptome alignment consistent with all Allen Institute data sets in 2023. Processed data for all cells is available at https://portal.brain-map.org/atlases-and-data/rnaseq and all raw data is available for controlled access in the [NeMO Archives](https://nemoarchive.org/resources/accessing-controlled-access-data#nda-approval-process). 
 
 There are only 3 data objects in this package, and no functions. They are:  
-`metadata_Hodge2019.rda`: A data.frame with annotations for each sample. See `?metadata_Hodge2019` for descriptions of each column.  
-`data_Hodge2019.rda`: A matrix of read counts for all genes using a new transcriptome alignment.  
-`dend_Hodge2019.rda`: An R dendrogram variable organizing clusters in the same way as presented in Hodge, _et al._ (2019).  
+1. `metadata_Hodge2019.rda`: A data.frame with annotations for each sample. See `?metadata_Hodge2019` for descriptions of each column.  
+2. `data_Hodge2019.rda`: A matrix of read counts for all genes using a new transcriptome alignment.  
+3. `dend_Hodge2019.rda`: An R dendrogram variable organizing clusters in the same way as presented in Hodge, _et al._ (2019).  
 
 ## Installation
 
